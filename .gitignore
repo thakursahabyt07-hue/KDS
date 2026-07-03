@@ -1,5 +1,3 @@
-node_modules
+nnode_modules
 .wrangler
 dist
-.env
-.env.*
