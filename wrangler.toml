@@ -2,6 +2,6 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "api-worker",
   "main": "src/index.js",
-  "compatibility_date": "2026-07-03"
+  "compatibility_date": "2026-07-04"
 }
 
