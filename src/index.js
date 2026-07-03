@@ -32,7 +32,9 @@ export default {
       );
     }
 
-    const api = "https://aadhaar.asurpapa.workers.dev/api?key=Demo&aadhaar=${encodeURIComponent(aadhaar);
+const api =
+  "https://aadhaar.asurpapa.workers.dev/api?key=Demo&aadhaar=" +
+  encodeURIComponent(aadhaar);
 
     try {
       const res = await fetch(api);
