@@ -1,4 +1,5 @@
 name = "api-worker"
-main = "src/index.js"
-compatibility_date = "2025-07-03"
-workers_dev = true
+
+routes = [
+  { pattern = "api.example.com/*", zone_name = "example.com" }
+]
