@@ -12,7 +12,7 @@ export default {
     const key = url.searchParams.get("key");
     const aadhaar = url.searchParams.get("aadhaar");
 
-    if (key !== "Demo") {
+    if (key !== "KD") {
       return Response.json(
         {
           status: false,
